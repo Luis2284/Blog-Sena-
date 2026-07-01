@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="My English Learning Blog – A personal portfolio of English learning activities developed during my SENA training process.">
+  <title>My English Learning Blog</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ========== HEADER & NAVIGATION ========== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">
+        <button type="button" class="logo-icon" id="langToggle" aria-label="Switch language">EN</button>
+        <a href="#home" class="logo-link">
+          <span class="logo-text" data-i18n="site.title">My English Learning Blog</span>
+        </a>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Open navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="main-nav" id="mainNav">
+        <ul>
+          <li><a href="#home" data-i18n="nav.home">Home</a></li>
+          <li><a href="#entry-1" data-i18n="nav.e1">Entry 1</a></li>
+          <li><a href="#entry-2" data-i18n="nav.e2">Entry 2</a></li>
+          <li><a href="#entry-3" data-i18n="nav.e3">Entry 3</a></li>
+          <li><a href="#entry-4" data-i18n="nav.e4">Entry 4</a></li>
+          <li><a href="#entry-5" data-i18n="nav.e5">Entry 5</a></li>
+          <li><a href="#entry-6" data-i18n="nav.e6">Entry 6</a></li>
+          <li><a href="#entry-7" data-i18n="nav.e7">Entry 7</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ========== HERO / HOME ========== -->
+  <section class="hero home-section" id="home">
+    <div class="home-container">
+
+      <div class="hero-banner-card">
+        <img src="assets/hero-blog.png" data-i18n-alt="hero.alt" alt="My English Learning Blog" loading="eager">
+      </div>
+
+      <div class="home-info-grid">
+        <div class="institutional-card institutional-card--home">
+          <h2 class="institutional-card__title" data-i18n="home.inst.title">Institutional Information</h2>
+          <dl class="info-grid info-grid--home">
+            <div class="info-item">
+              <dt data-i18n="home.evidence.dt">Evidence</dt>
+              <dd data-i18n="home.evidence.dd">Blog – GA4-240202501-AA1-EV03</dd>
+            </div>
+            <div class="info-item">
+              <dt data-i18n="home.program.dt">Training Program</dt>
+              <dd data-i18n="home.program.dd">Software Analysis and Development</dd>
+            </div>
+            <div class="info-item">
+              <dt data-i18n="home.file.dt">File Number</dt>
+              <dd>3336155</dd>
+            </div>
+            <div class="info-item">
+              <dt data-i18n="home.instructor.dt">Instructor</dt>
+              <dd>Juan Manuel Bustamante Velandia</dd>
+            </div>
+            <div class="info-item">
+              <dt data-i18n="home.center.dt">Training Center</dt>
+              <dd data-i18n="home.center.dd">Center of Commerce and Services</dd>
+            </div>
+            <div class="info-item">
+              <dt data-i18n="home.date.dt">Date</dt>
+              <dd data-i18n="home.date.dd">June 2026</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="apprentice-card apprentice-card--home">
+          <h3 class="apprentice-card__label" data-i18n="home.apprentice.label">Apprentice</h3>
+          <div class="apprentice-photo">
+            <img
+              src="assets/luis-profile.jpg"
+              data-i18n-alt="home.apprentice.alt"
+              alt="Luis Navarro Masson"
+              class="apprentice-photo__img"
+              id="apprenticePhoto"
+              loading="eager"
+              width="96"
+              height="96">
+            <div class="apprentice-photo__fallback" id="apprenticeFallback" aria-hidden="true">LN</div>
+          </div>
+          <p class="apprentice-card__name">Luis Navarro Masson</p>
+          <p class="apprentice-card__role" data-i18n="home.apprentice.role">Software Analysis and Development Apprentice</p>
+          <p class="apprentice-card__org">SENA</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========== BLOG PRESENTATION AUDIO ========== -->
+  <section class="presentation-audio" id="presentation-audio">
+    <div class="container">
+      <div class="section-header">
+        <h2 data-i18n="pres.title">Blog presentation audio</h2>
+        <p data-i18n="pres.desc">
+          In this short audio, I introduce my English Learning Blog and explain its purpose
+          as part of my SENA training process.
+        </p>
+      </div>
+      <div class="media-block audio-block presentation-audio__player">
+        <div class="audio-player-card">
+          <audio controls preload="metadata">
+            <source src="./assets/audio/blog-presentation-audio.mp3" type="audio/mpeg">
+            <span data-i18n="audio.unsupported">Your browser does not support the audio element.</span>
+          </audio>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FULL ARTICLE: ENTRY 1 ========== -->
+  <article class="full-entry" id="entry-1">
+    <div class="container">
+      <header class="entry-header">
+        <span class="category" data-i18n="e1.category">Travel and Culture</span>
+        <span class="activity-label" data-i18n="e1.activity">Previous SENA Activity: IE-GA2-240202501-AA2-EV02 – Presentation</span>
+        <h2 data-i18n="e1.title">A tourist place in my region</h2>
+        <p class="entry-intro" data-i18n="e1.intro">
+          This entry presents a previous English activity developed during my SENA training process.
+          This work corresponds to the activity IE-GA2-240202501-AA2-EV02. In this activity, I described
+          a tourist place from my region: the Maraca River, located in the municipality of Becerril,
+          in the department of Cesar, Colombia.
+        </p>
+      </header>
+
+      <div class="entry-body">
+        <p data-i18n="e1.p1">
+          The Maraca River is an important natural place for the people of Becerril. It is recognized
+          for its beautiful landscape, fresh water, peaceful environment, and connection with the local
+          culture and traditions. This place is visited by local people and tourists who want to enjoy nature,
+          spend time with family and friends, and learn more about the natural beauty of the region.
+        </p>
+        <p data-i18n="e1.p2">
+          Tourism is an important way to share the culture, traditions, and beauty of a region. In this activity,
+          I practiced English by presenting the Maraca River as a tourist place from my region. Through this
+          presentation, I described its location, some of its most representative characteristics, and why it
+          is important for visitors and local people.
+        </p>
+        <p data-i18n="e1.p3">
+          This activity helped me improve my English communication skills because I had to organize information,
+          use clear vocabulary, and speak in a simple and understandable way. It also helped me practice
+          pronunciation, rhythm, and intonation while talking about a real place connected with my environment.
+        </p>
+
+        <aside class="tourist-collage-card" data-i18n-aria="e1.collage.aria" aria-label="Tourist place images from my region">
+          <div class="tourist-collage-card__grid">
+            <div class="tourist-collage-card__item">
+              <img
+                src="./assets/images/entry-1-tourist-place-banner.jpeg"
+                data-i18n-alt="e1.collage.alt"
+                alt="Tourist place images from my region"
+                class="tourist-collage-card__img"
+                loading="lazy">
+            </div>
+            <div class="tourist-collage-card__item">
+              <img
+                src="./assets/images/entry-1-tourist-place-banner-2.JPG"
+                alt=""
+                class="tourist-collage-card__img"
+                aria-hidden="true"
+                loading="lazy">
+            </div>
+            <div class="tourist-collage-card__item">
+              <img
+                src="./assets/images/entry-1-tourist-place-banner-3.JPG"
+                alt=""
+                class="tourist-collage-card__img"
+                aria-hidden="true"
+                loading="lazy">
+            </div>
+            <div class="tourist-collage-card__item">
+              <img
+                src="./assets/images/entry-1-tourist-place-banner-4.JPG"
+                alt=""
+                class="tourist-collage-card__img"
+                aria-hidden="true"
+                loading="lazy">
+            </div>
+          </div>
+        </aside>
+
+        <div class="media-block video-block video-presentation">
+          <h3 class="media-title" data-i18n="e1.video.title">My tourist place presentation</h3>
+          <p class="media-intro" data-i18n="e1.video.intro">
+            In the following video, I present a tourist place from my region as part of a previous English activity.
+          </p>
+          <div class="video-presentation__frame">
+            <iframe
+              src="https://drive.google.com/file/d/1Ieieso0fijer9WflO3OmkPizeHiVFMxy/preview"
+              data-i18n-title="e1.video.iframeTitle"
+              title="My tourist place presentation video"
+              allow="autoplay"
+              allowfullscreen>
+            </iframe>
+          </div>
+          <p class="media-fallback">
+            <a href="https://drive.google.com/file/d/1Ieieso0fijer9WflO3OmkPizeHiVFMxy/view" target="_blank" rel="noopener noreferrer" data-i18n="e1.video.link">
+              Open video in Google Drive
+            </a>
+          </p>
+        </div>
+
+        <p class="reflection">
+          <em data-i18n="e1.reflection">Reflection: This activity allowed me to practice English while describing a real place from my region. It also helped me connect language learning with culture, tourism, and personal experiences.</em>
+        </p>
+      </div>
+    </div>
+  </article>
+
+  <!-- ========== FULL ARTICLE: ENTRY 2 ========== -->
+  <article class="full-entry" id="entry-2">
+    <div class="container">
+      <header class="entry-header">
+        <span class="category" data-i18n="e2.category">Work and English Communication</span>
+        <span class="activity-label" data-i18n="e2.activity">Previous SENA Activity: GA3-240202501-AA1-EV02 – Audio</span>
+        <h2 data-i18n="e2.title">Workplace responsibilities and modal verbs</h2>
+        <p class="entry-intro" data-i18n="e2.intro">
+          This entry presents a previous English audio activity developed during my SENA training process.
+          In this activity, I practiced how to express attitudes, beliefs, responsibilities and obligations
+          in a workplace context, using modal verbs such as have to, must and should.
+        </p>
+      </header>
+
+      <div class="entry-body">
+        <p data-i18n="e2.p1">
+          In the workplace, communication is essential because it allows people to express rules, duties,
+          recommendations and opinions clearly and appropriately. Modal verbs are important in English because
+          they help communicate these kinds of ideas. For example, “must” is used to talk about strong obligations,
+          “have to” is used to describe responsibilities or necessary actions, and “should” is used to give advice
+          or recommendations.
+        </p>
+        <p data-i18n="e2.p2">
+          This activity helped me strengthen my English communication skills in a context related to the world of work.
+          It also allowed me to improve my pronunciation, fluency, vocabulary and grammatical structure. As a Software
+          Analysis and Development apprentice, I understand that English is an important tool to communicate better in
+          professional environments, follow technical instructions and express ideas clearly and in an organized way.
+        </p>
+
+        <div class="media-block audio-block audio-presentation">
+          <h3 class="media-title" data-i18n="e2.audio.title">My workplace english audio</h3>
+          <div class="media-intro">
+            <p data-i18n="e2.audio.intro1">
+              In this entry, I present an English audio activity about workplace responsibilities and the use of modal verbs.
+              Through this audio, I practice how to express obligations, responsibilities, advice, and rules in a professional context.
+            </p>
+            <p data-i18n="e2.audio.intro2">The audio activity is attached below.</p>
+          </div>
+          <div class="audio-callout" role="note">
+            <span class="audio-callout__icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 3v12m0 0l-4-4m4 4l4-4M5 19h14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+            <div class="audio-callout__text">
+              <strong data-i18n="e2.audio.calloutStrong">Audio activity</strong>
+              <span data-i18n="e2.audio.calloutSpan">Listen to the audio below.</span>
+            </div>
+          </div>
+          <div class="audio-player-card">
+            <audio controls preload="metadata">
+              <source src="./assets/audio/workplace-modal-verbs.mp3" type="audio/mpeg">
+              <span data-i18n="audio.unsupported">Your browser does not support the audio element.</span>
+            </audio>
+          </div>
+          <p class="media-fallback">
+            <a
+              href="https://drive.google.com/file/d/1cS13DtaVVYxz5jZGg20C8V_Ktc7vdP1T/view?usp=drive_link"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="media-link"
+              data-i18n="e2.audio.link">
+              Open audio in Google Drive
+            </a>
+          </p>
+        </div>
+
+        <p class="reflection">
+          <em data-i18n="e2.reflection">Reflection: This activity helped me understand how modal verbs are useful to express obligations, advice, and responsibilities in English. It also helped me connect language learning with real work situations.</em>
+        </p>
+      </div>
+    </div>
+  </article>
+
+  <!-- ========== FULL ARTICLE: ENTRY 3 ========== -->
+  <article class="full-entry" id="entry-3">
+    <div class="container">
+      <header class="entry-header">
+        <span class="category" data-i18n="e3.category">Family and Personal Life</span>
+        <h2 data-i18n="e3.title">My family, hobbies and personal interests</h2>
+        <p class="entry-intro" data-i18n="e3.intro">
+          In this entry, I describe my family, my hobbies, and the personal interests that shape
+          my daily life and learning process.
+        </p>
+      </header>
+
+      <div class="entry-layout entry-layout--illustrated">
+        <div class="entry-body">
+          <p data-i18n="e3.p1">
+            My family is very important to me because they give me love, support, and motivation every day.
+            I believe that family is one of the most valuable parts of life, because it teaches us respect,
+            responsibility, and kindness.
+          </p>
+          <p data-i18n="e3.p2">
+            In my free time, I enjoy listening to music, learning new things, creating digital content,
+            and spending time with people I love. These activities help me relax, improve my creativity,
+            and develop personal skills.
+          </p>
+          <p data-i18n="e3.p3">
+            One of my main interests is technology. I like learning about software development because it
+            helps me understand how digital tools work and how they can solve real problems in society.
+          </p>
+
+          <p class="reflection">
+            <em data-i18n="e3.reflection">Reflection: This activity helps me practice English vocabulary related to family, hobbies, interests, and personal experiences. It also allows me to express important aspects of my life in a clear and simple way.</em>
+          </p>
+        </div>
+
+        <aside class="entry-illustration" data-i18n-aria="e3.illustration.aria" aria-label="Cartoon illustration of my family and personal interests">
+          <div class="entry-illustration__card">
+            <img
+              src="./assets/images/my-family-and-personal-interests.png"
+              data-i18n-alt="e3.illustration.alt"
+              alt="Cartoon illustration of my family and personal interests"
+              class="entry-illustration__img"
+              loading="lazy">
+          </div>
+        </aside>
+      </div>
+    </div>
+  </article>
+
+  <!-- ========== FULL ARTICLE: ENTRY 4 ========== -->
+  <article class="full-entry" id="entry-4">
+    <div class="container">
+      <header class="entry-header">
+        <span class="category" data-i18n="e4.category">Work and Professional Communication</span>
+        <h2 data-i18n="e4.title">Entry 4: Professional job application email</h2>
+        <p class="entry-intro" data-i18n="e4.intro">
+          In this entry, I present a written English activity in the form of a professional job application email.
+          This activity helps me practice formal communication, professional vocabulary, grammar, punctuation,
+          and the correct structure of a job application message.
+        </p>
+      </header>
+
+      <div class="entry-body">
+          <div class="email-document">
+            <h3 class="email-document__title" data-i18n="e4.doctitle">Application for junior software development position - Activity: GA2-240202501-AA2-EV03</h3>
+            <div class="email-document__preview">
+              <img
+                src="./assets/images/job-application-email.jpg"
+                data-i18n-alt="e4.imgAlt"
+                alt="Preview of professional job application email document"
+                class="email-document__img"
+                loading="lazy">
+            </div>
+          </div>
+
+          <p class="reflection">
+            <em data-i18n="e4.reflection">Reflection: This written activity allowed me to practice formal English communication in a professional context. It also helped me improve my ability to describe my skills, academic background, personal qualities, and career goals in a clear and organized way.</em>
+          </p>
+      </div>
+    </div>
+  </article>
+
+  <!-- ========== FULL ARTICLE: ENTRY 5 ========== -->
+  <article class="full-entry" id="entry-5">
+    <div class="container">
+      <header class="entry-header">
+        <span class="category" data-i18n="e5.category">Learning Environment</span>
+        <h2 data-i18n="e5.title">Entry 5: My personal learning environment for learning english</h2>
+        <p class="entry-intro" data-i18n="e5.intro">
+          This mind map presents my Personal Learning Environment for learning English. It shows the digital tools,
+          learning strategies, English skills, work environment and improvement actions that help me strengthen my
+          communication and professional performance in software development.
+        </p>
+      </header>
+
+      <div class="entry-body">
+          <div class="email-document">
+            <h3 class="email-document__title" data-i18n="e5.doctitle">My personal learning environment for learning english - Activity: GA4-220501095-AA1-EV02</h3>
+            <div class="email-document__preview">
+              <img
+                src="./assets/images/entry-5-my-ple-for-learning-english.jpg"
+                data-i18n-alt="e5.imgAlt"
+                alt="Mind map of my Personal Learning Environment for learning English"
+                class="email-document__img"
+                loading="lazy">
+            </div>
+          </div>
+
+          <p class="reflection">
+            <em data-i18n="e5.reflection">Reflection: This mind map helped me organize the tools, strategies, and actions that support my English learning process in both academic and professional contexts.</em>
+          </p>
+      </div>
+    </div>
+  </article>
+
+  <!-- ========== FULL ARTICLE: ENTRY 6 ========== -->
+  <article class="full-entry" id="entry-6">
+    <div class="container">
+      <header class="entry-header">
+        <span class="category" data-i18n="e6.category">Current Topics</span>
+        <h2 data-i18n="e6.title">Entry 6: Critical thinking and media literacy</h2>
+      </header>
+
+      <div class="entry-body">
+        <div class="email-document">
+          <h3 class="email-document__title" data-i18n="e6.doctitle">Critical thinking and media literacy</h3>
+          <div class="email-document__content">
+            <p data-i18n="e6.p1">
+              Critical thinking and media literacy are essential skills in today’s digital world. Mass media, such as
+              television, radio, newspapers, websites and social networks, influence the way people receive and
+              understand information every day.
+            </p>
+            <p data-i18n="e6.p2">
+              Critical thinking helps people analyze information, ask questions, compare ideas and make responsible
+              decisions. Media literacy helps us understand the messages we receive from news, videos, advertisements
+              and digital platforms. These skills are important because not all information on the internet is true.
+              It is necessary to identify reliable sources, fake news, bias and manipulation.
+            </p>
+            <p data-i18n="e6.p3">
+              This topic also includes the use of tag questions, which are useful to confirm information or invite
+              another person to respond. For example: “Media literacy is important, isn’t it?” In my academic and
+              professional life, especially in software development, these skills help me solve problems, use
+              information responsibly and communicate ideas clearly.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <!-- ========== FULL ARTICLE: ENTRY 7 ========== -->
+  <article class="full-entry" id="entry-7">
+    <div class="container">
+      <header class="entry-header">
+        <span class="category" data-i18n="e7.category">Society</span>
+        <h2 data-i18n="e7.title">Entry 7: Crime and punishment</h2>
+      </header>
+
+      <div class="entry-body">
+        <div class="email-document">
+          <h3 class="email-document__title" data-i18n="e7.doctitle">Crime and punishment</h3>
+          <div class="email-document__content">
+            <p data-i18n="e7.p1">
+              Crime and punishment is a topic that invites us to reflect on human actions, justice and consequences.
+              A crime is not only a violation of the law; it can also affect families, communities and society. For
+              this reason, punishment is used to correct behavior, protect people and promote responsibility.
+            </p>
+            <p data-i18n="e7.p2">
+              This topic also shows the importance of conscience, guilt and moral values. Sometimes the strongest
+              punishment is not only legal, but internal, because people must face the consequences of their decisions.
+              In my opinion, justice should not only punish, but also help people understand their mistakes and look
+              for redemption.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <!-- ========== LEARNING REFLECTION ========== -->
+  <section class="learning-reflection">
+    <div class="container">
+      <div class="reflection-card">
+        <h2 data-i18n="learn.title">Learning Reflection</h2>
+        <p data-i18n="learn.p">
+          This blog represents my English learning process through different topics related to my
+          personal life, academic development, work environment, tourism, critical thinking, and
+          society. It helps me improve my vocabulary, pronunciation, writing, and communication skills.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT SECTION ========== -->
+  <section class="about-section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <h2 data-i18n="about.title">About this blog</h2>
+      </div>
+      <div class="about-card">
+        <p data-i18n="about.p1">
+          SENA GA4-240202501-AA1-EV03 – Blog for the Software Analysis and Development program.
+        </p>
+        <p data-i18n-html="about.p2">
+          Apprentice: Luis Navarro Masson &nbsp;&nbsp;|&nbsp;&nbsp; Instructor: Juan Manuel Bustamante Velandia
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="site-footer">
+    <div class="container">
+      <p data-i18n="footer.copy">© 2026 Luis Navarro Masson – SENA – Software Analysis and Development</p>
+    </div>
+  </footer>
+
+  <script src="i18n.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
